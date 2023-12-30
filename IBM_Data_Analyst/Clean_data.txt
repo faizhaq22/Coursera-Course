@@ -1,0 +1,25 @@
+**Clean and Prepare Data in Excel**
+
+**Software Used in this Project**
+Microsoft Excel
+
+**Dataset Used in this Project**
+The dataset used in this lab comes from the following source: https://data.montgomerycountymd.gov/Government/Fleet-Equipment-Inventory/93vc-wpdr under a Public Domain license.
+
+For your assignment to be graded in a subsequent step in the course, you will be required to upload the two completed Excel workbooks that you saved at the end of Parts 1 and 2. 
+
+**The main grading criteria will be:** 
+
+Part 1:
+- Is the data saved correctly? 	
+- Is the data formatted correctly? 	
+- Has the data been cleaned correctly?
+- Has the workbook been saved correctly? 
+
+Part 2:
+- Is the data formatted as a table? 
+- Are the AutoSum values correct? 
+- Has the correct pivot table been created and sorted? 
+- Has the pivot table been created two more times? 
+- Have the correct fields been used in pivot tables 2 and 3?
+- Has the workbook been saved correctly? 
