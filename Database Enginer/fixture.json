@@ -1,0 +1,250 @@
+{
+  "customers": [
+    {
+      "customerID": 1,
+      "fullName": "John Doe",
+      "contactNumber": 1234567890,
+      "email": "john.doe@example.com"
+    },
+    {
+      "customerID": 2,
+      "fullName": "Jane Smith",
+      "contactNumber": 9876543210,
+      "email": "jane.smith@example.com"
+    },
+    {
+      "customerID": 3,
+      "fullName": "Michael Johnson",
+      "contactNumber": 5551234567,
+      "email": "michael.johnson@example.com"
+    },
+    {
+      "customerID": 4,
+      "fullName": "Emily Brown",
+      "contactNumber": 9998887776,
+      "email": "emily.brown@example.com"
+    }
+  ],
+  "categories": [
+    {
+      "categoryID": 1,
+      "category_name": "Electronics",
+      "sub_category": "Mobile Phones"
+    },
+    {
+      "categoryID": 2,
+      "category_name": "Clothing",
+      "sub_category": "T-Shirts"
+    },
+    {
+      "categoryID": 3,
+      "category_name": "Books",
+      "sub_category": "Fiction"
+    },
+    {
+      "categoryID": 4,
+      "category_name": "Home & Kitchen",
+      "sub_category": "Appliances"
+    }
+  ],
+  "products": [
+    {
+      "productID": 101,
+      "productPrice": 499.99,
+      "productName": "iPhone 13",
+      "quantity": 100,
+      "categoryID": 1,
+      "amountInStock": 100
+    },
+    {
+      "productID": 102,
+      "productPrice": 29.99,
+      "productName": "Plain White Tee",
+      "quantity": 200,
+      "categoryID": 2,
+      "amountInStock": 150
+    },
+    {
+      "productID": 103,
+      "productPrice": 14.99,
+      "productName": "The Great Gatsby",
+      "quantity": 50,
+      "categoryID": 3,
+      "amountInStock": 40
+    },
+    {
+      "productID": 104,
+      "productPrice": 299.99,
+      "productName": "KitchenAid Stand Mixer",
+      "quantity": 20,
+      "categoryID": 4,
+      "amountInStock": 15
+    }
+  ],
+  "deliveries": [
+    {
+      "deliveryID": 1,
+      "city": "New York",
+      "country": "USA",
+      "postCode": "10001",
+      "state": "New York",
+      "street": "123 Main St"
+    },
+    {
+      "deliveryID": 2,
+      "city": "Los Angeles",
+      "country": "USA",
+      "postCode": "90001",
+      "state": "California",
+      "street": "456 Elm St"
+    },
+    {
+      "deliveryID": 3,
+      "city": "Chicago",
+      "country": "USA",
+      "postCode": "60601",
+      "state": "Illinois",
+      "street": "789 Oak St"
+    },
+    {
+      "deliveryID": 4,
+      "city": "Houston",
+      "country": "USA",
+      "postCode": "77001",
+      "state": "Texas",
+      "street": "321 Pine St"
+    }
+  ],
+  "shippings": [
+    {
+      "shipID": 101,
+      "shippingMode": "Express",
+      "shippingDate": "2024-02-04T09:00:00",
+      "shippingCost": 15.00,
+      "deliveryID": 1
+    },
+    {
+      "shipID": 102,
+      "shippingMode": "Standard",
+      "shippingDate": "2024-02-05T12:00:00",
+      "shippingCost": 8.99,
+      "deliveryID": 2
+    },
+    {
+      "shipID": 103,
+      "shippingMode": "Priority",
+      "shippingDate": "2024-02-06T10:00:00",
+      "shippingCost": 25.50,
+      "deliveryID": 3
+    },
+    {
+      "shipID": 104,
+      "shippingMode": "Express",
+      "shippingDate": "2024-02-07T09:30:00",
+      "shippingCost": 18.00,
+      "deliveryID": 4
+    },
+    {
+      "shipID": 105,
+      "shippingMode": "Standard",
+      "shippingDate": "2025-01-10T08:00:00",
+      "shippingCost": 10.50,
+      "deliveryID": 1
+    },
+    {
+      "shipID": 106,
+      "shippingMode": "Express",
+      "shippingDate": "2025-01-11T11:00:00",
+      "shippingCost": 20.00,
+      "deliveryID": 2
+    },
+    {
+      "shipID": 107,
+      "shippingMode": "Priority",
+      "shippingDate": "2025-01-12T10:00:00",
+      "shippingCost": 30.00,
+      "deliveryID": 3
+    },
+    {
+      "shipID": 108,
+      "shippingMode": "Standard",
+      "shippingDate": "2025-01-13T09:30:00",
+      "shippingCost": 12.50,
+      "deliveryID": 4
+    }
+  ],
+  "orders": [
+    {
+      "orderID": 1001,
+      "orderDate": "2024-02-04T10:00:00",
+      "orderPriority": 1,
+      "totalCost": 499.99,
+      "productID": 101,
+      "customerID": 1,
+      "shippingID": 101
+    },
+    {
+      "orderID": 1002,
+      "orderDate": "2024-02-05T11:00:00",
+      "orderPriority": 2,
+      "totalCost": 29.99,
+      "productID": 102,
+      "customerID": 2,
+      "shippingID": 102
+    },
+    {
+      "orderID": 1003,
+      "orderDate": "2024-02-06T12:00:00",
+      "orderPriority": 3,
+      "totalCost": 14.99,
+      "productID": 103,
+      "customerID": 3,
+      "shippingID": 103
+    },
+    {
+      "orderID": 1004,
+      "orderDate": "2024-02-07T13:00:00",
+      "orderPriority": 1,
+      "totalCost": 299.99,
+      "productID": 104,
+      "customerID": 4,
+      "shippingID": 104
+    },
+    {
+      "orderID": 1005,
+      "orderDate": "2023-12-15T14:00:00",
+      "orderPriority": 2,
+      "totalCost": 499.99,
+      "productID": 101,
+      "customerID": 1,
+      "shippingID": 101
+    },
+    {
+      "orderID": 1006,
+      "orderDate": "2023-12-16T15:00:00",
+      "orderPriority": 3,
+      "totalCost": 29.99,
+      "productID": 102,
+      "customerID": 2,
+      "shippingID": 102
+    },
+    {
+      "orderID": 1007,
+      "orderDate": "2023-12-17T16:00:00",
+      "orderPriority": 1,
+      "totalCost": 14.99,
+      "productID": 103,
+      "customerID": 3,
+      "shippingID": 103
+    },
+    {
+      "orderID": 1008,
+      "orderDate": "2023-12-18T17:00:00",
+      "orderPriority": 2,
+      "totalCost": 299.99,
+      "productID": 104,
+      "customerID": 4,
+      "shippingID": 104
+    }
+  ]
+}
